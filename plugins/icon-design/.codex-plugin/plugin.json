@@ -1,6 +1,6 @@
 {
   "name": "icon-design",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Generate original app icons and prepare artwork for Apple Icon Composer.",
   "author": {
     "name": "ailuntz",
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Icon Design",
     "shortDescription": "生成原创图标，衔接 Icon Composer",
-    "longDescription": "把应用想法和参考图转成有辨识度的图标。先提炼轮廓、留白、色彩与性格，用不同的视觉方向探索；名称可以只是轻微联想。\n\n优先使用可用的内置生图能力。内置工具不可用时，先查看本机 Codex Profiles 和图片接口环境配置，列出候选地址供用户选择；确认 Imagegen 命令行路线后调用，也可选择已授权的 OpenRouter。第三方图片服务调用前确认实际地址与费用。参考图可参与图片生成，再通过真实的小尺寸预览比较效果。\n\n选定后重建干净的 SVG 或透明图层，衔接 Apple Icon Composer，交付原生文档与 macOS 图标资源。先做低成本草稿，保留精确提示词、参考来源和实际费用，确认后再精修。需要本地工具及可用的生图能力；API 生图可能收费。",
+    "longDescription": "把应用想法和参考图转成有辨识度的图标。先提炼轮廓、留白、色彩与性格，用不同的视觉方向探索；名称可以只是轻微联想。\n\n优先使用可用的内置生图能力。内置工具不可用时，先查看本机 Codex Profiles 和图片接口环境配置，列出候选地址供用户选择；确认 Imagegen 命令行路线后调用，也可选择已授权的 OpenRouter。第三方图片服务调用前确认实际地址与费用。参考图可参与图片生成；展示真实的小尺寸对比并请用户选定方向，再制作和接入正式图标。\n\n选定后重建干净的 SVG 或透明图层，衔接 Apple Icon Composer，交付原生文档与 macOS 图标资源。先做低成本草稿，保留精确提示词、参考来源和实际费用，确认后再精修。需要本地工具及可用的生图能力；API 生图可能收费。",
     "developerName": "ailuntz",
     "category": "Creativity",
     "capabilities": [],
