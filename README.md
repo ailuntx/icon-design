@@ -14,7 +14,7 @@ MiniBridge 已采用 B2：将选中的栅格轮廓重建为两个独立 SVG 图�
 
 品牌：ailuntz · https://www.ailuntz.com。本地插件版本：0.2.0。使用说明与脚本包含在插件内，无需 npm 安装。
 
-此版本已更名并采用新的 Color Sail 图标。公开目录及发布包的链接会在新版发布后补上。
+此版本已更名并采用新的 Color Sail 图标。[在插件目录安装 Icon Design](https://chatgpt.com/plugins/plugins_6ab4afd6b1188191a10f9cd382d2f196) · [下载 0.2.0 发布包](https://github.com/ailuntx/icon-design/releases/tag/v0.2.0)。旧版 AI Icon Studio 已从公开目录下架。
 
 [Privacy](docs/privacy.md) · [Terms](docs/terms.md)
 

@@ -1,0 +1,20 @@
+{
+  "plugin_name": "icon-design",
+  "version": "0.2.0",
+  "source_commit": "c4dc345",
+  "package_sha256": "8ce7ccf6f243886747dad08fbdde783cb1c55b54745dff8360560a9a603650de",
+  "github_repository": "https://github.com/ailuntx/icon-design",
+  "github_release": "https://github.com/ailuntx/icon-design/releases/tag/v0.2.0",
+  "openai_plugin_id": "plugins_6ab4afd6b1188191a10f9cd382d2f196",
+  "openai_submission_id": "appsub_6ab4afd6bf388191bae4d2f6812ff08f",
+  "openai_submission_url": "https://platform.openai.com/plugins/plugins_6ab4afd6b1188191a10f9cd382d2f196/submissions/appsub_6ab4afd6bf388191bae4d2f6812ff08f",
+  "openai_directory_url": "https://chatgpt.com/plugins/plugins_6ab4afd6b1188191a10f9cd382d2f196",
+  "openai_status": "published",
+  "superseded_listing": {
+    "name": "AI Icon Studio",
+    "plugin_id": "plugins_6aa19a8879108191825af4fe2523aee3",
+    "version": "0.1.2",
+    "status": "unpublished_approved"
+  },
+  "observed_at_utc": "2026-09-24T05:15:56Z"
+}
