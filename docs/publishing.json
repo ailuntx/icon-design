@@ -1,13 +1,13 @@
 {
   "plugin_name": "icon-design",
-  "version": "0.2.0",
-  "source_commit": "c4dc345",
-  "package_sha256": "8ce7ccf6f243886747dad08fbdde783cb1c55b54745dff8360560a9a603650de",
+  "version": "0.2.1",
+  "source_commit": "9c59fff",
+  "package_sha256": "e8e4ff4ab9a9a4c154e59a3424784b25672d31a10b9bf4e1606768d43f78aaec",
   "github_repository": "https://github.com/ailuntx/icon-design",
-  "github_release": "https://github.com/ailuntx/icon-design/releases/tag/v0.2.0",
+  "github_release": "https://github.com/ailuntx/icon-design/releases/tag/v0.2.1",
   "openai_plugin_id": "plugins_6ab4afd6b1188191a10f9cd382d2f196",
-  "openai_submission_id": "appsub_6ab4afd6bf388191bae4d2f6812ff08f",
-  "openai_submission_url": "https://platform.openai.com/plugins/plugins_6ab4afd6b1188191a10f9cd382d2f196/submissions/appsub_6ab4afd6bf388191bae4d2f6812ff08f",
+  "openai_submission_id": "appsub_6ab4b7cc36fc819191458cf66c282d6a",
+  "openai_submission_url": "https://platform.openai.com/plugins/plugins_6ab4afd6b1188191a10f9cd382d2f196/submissions/appsub_6ab4b7cc36fc819191458cf66c282d6a",
   "openai_directory_url": "https://chatgpt.com/plugins/plugins_6ab4afd6b1188191a10f9cd382d2f196",
   "openai_status": "published",
   "superseded_listing": {
@@ -16,5 +16,5 @@
     "version": "0.1.2",
     "status": "unpublished_approved"
   },
-  "observed_at_utc": "2026-09-24T05:15:56Z"
+  "observed_at_utc": "2026-09-24T05:49:31Z"
 }
