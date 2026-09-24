@@ -1,4 +1,4 @@
-# AI Icon Studio — Terms
+# Icon Design — Terms
 
 Effective date: 2026-09-10. Publisher: ailuntz. Website: https://www.ailuntz.com.
 
@@ -8,4 +8,4 @@ You are responsible for having permission to use project files and reference ima
 
 Optional API generation can incur provider charges under your account. The publisher does not sell generation credits or operate a paid generation service. Availability, output quality, compatibility and successful generation are not guaranteed. The plugin is provided as is, without a service-level commitment; this does not exclude obligations that cannot lawfully be excluded.
 
-You may stop using the plugin by uninstalling it. Local files, provider credentials and third-party accounts are managed separately. Support: https://github.com/ailuntx/ai-icon-studio/issues. Revisions will be published here with an updated effective date.
+You may stop using the plugin by uninstalling it. Local files, provider credentials and third-party accounts are managed separately. Support: https://github.com/ailuntx/icon-design/issues. Revisions will be published here with an updated effective date.

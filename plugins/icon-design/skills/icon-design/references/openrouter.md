@@ -1,14 +1,6 @@
 # Optional OpenRouter image route
 
-Use only with user authorization for this provider. Keep credentials in the target process, never in prompts, command literals, plugin files or logs. Prefer an existing secret manager. With AI Know Me installed, discover `llm.openrouter` by name and inject it:
-
-```sh
-ai-know-me search openrouter --json
-ai-know-me run --env OPENROUTER_API_KEY=llm.openrouter -- \
-  node scripts/openrouter-image.mjs prompts/direction-a.txt output/direction-a.png low
-```
-
-Resolve the script relative to this skill directory. An already configured `OPENROUTER_API_KEY` environment also works; AI Know Me is optional, not a bundled dependency. Never ask users to paste their key into chat.
+Use only with user authorization for this provider. Keep credentials in the target process, never in prompts, command literals, plugin files or logs. Prefer an existing secret manager. With Keybook installed, run its bundled `keybook.mjs doctor --json`, find the actual OpenRouter entry name with `search openrouter --json`, then use `run --env OPENROUTER_API_KEY=<selected entry> -- node <this skill's openrouter-image.mjs> <prompt.txt> <output.png> low`. Resolve both scripts relative to their installed skills. Keybook's `run` suppresses the child output; read only the adapter's safe `.png.json` receipt and generated PNG afterward. An already configured `OPENROUTER_API_KEY` environment also works. Keybook is optional, not a bundled dependency. Never ask users to paste their key into chat.
 
 For an authorized local style reference, add `--reference reference.png` after the quality argument. The adapter accepts one local PNG or JPEG up to 10 MiB, checks its file signature, and sends it inline via `input_references`. It records the reference count and SHA-256, not its image bytes, in the receipt. The image itself is transmitted to OpenRouter: use an appropriate user-provided design reference and describe its role in the prompt; do not automatically attach unrelated local files. Keep exact reference provenance in the project exploration, outside the distributable plugin.
 

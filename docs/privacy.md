@@ -1,8 +1,8 @@
-# AI Icon Studio — Privacy
+# Icon Design — Privacy
 
 Effective date: 2026-09-10. Publisher: ailuntz. Website: https://www.ailuntz.com.
 
-AI Icon Studio is a local plugin containing workflow instructions and optional scripts. It does not operate a hosted account system, collect analytics, or send project files or credentials to the publisher.
+Icon Design is a local plugin containing workflow instructions and optional scripts. It does not operate a hosted account system, collect analytics, or send project files or credentials to the publisher.
 
 The assistant may inspect the project files and images you choose, and save prompts, generated images, previews, generation receipts and icon assets in your local workspace. These files remain until you remove them. Their contents may also appear in your AI conversation; the AI platform's data practices apply to that conversation.
 
@@ -10,4 +10,4 @@ Image generation uses the provider you authorize. The optional OpenRouter adapte
 
 The local image-preparation and ICNS-packaging script makes no network requests. The plugin has no publisher-operated database, advertising or data-sale system. You can decline an API route, choose which references to send, remove local outputs, uninstall the plugin, and manage or revoke provider credentials through that provider. Removing local files or uninstalling does not remove copies in conversations or provider systems.
 
-Downloading the plugin from GitHub or a plugin directory and using an AI platform involve those services and their policies. Support is available at https://github.com/ailuntx/ai-icon-studio/issues. Issues are public: do not include API keys, confidential project files, or private images.
+Downloading the plugin from GitHub or a plugin directory and using an AI platform involve those services and their policies. Support is available at https://github.com/ailuntx/icon-design/issues. Issues are public: do not include API keys, confidential project files, or private images.

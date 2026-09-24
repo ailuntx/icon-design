@@ -5,7 +5,7 @@ import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
-import {generate,decodeImage} from '../plugins/ai-icon-studio/skills/icon-design/scripts/openrouter-image.mjs';
+import {generate,decodeImage} from '../plugins/icon-design/skills/icon-design/scripts/openrouter-image.mjs';
 const png=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/lxoAAAAASUVORK5CYII=','base64');
 test('requests one low-quality image and keeps credential only in headers',async()=>{
  let calls=0;
@@ -44,7 +44,7 @@ test('CLI accepts reference with default quality and rejects non-images without 
  try {
   const prompt=join(root,'prompt.txt'),ref=join(root,'reference.png'),output=join(root,'output.png');
   await writeFile(prompt,'an original icon');await writeFile(ref,png);
-  const script=fileURLToPath(new URL('../plugins/ai-icon-studio/skills/icon-design/scripts/openrouter-image.mjs',import.meta.url));
+  const script=fileURLToPath(new URL('../plugins/icon-design/skills/icon-design/scripts/openrouter-image.mjs',import.meta.url));
   const env={...process.env,OPENROUTER_API_KEY:''};
   const result=spawnSync(process.execPath,[script,prompt,output,'--reference',ref],{env,encoding:'utf8'});
   assert.equal(result.status,1);

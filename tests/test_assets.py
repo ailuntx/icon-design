@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 from PIL import Image,ImageDraw
 
-SCRIPT=Path(__file__).resolve().parents[1]/'plugins/ai-icon-studio/skills/icon-design/scripts/icon-assets.py'
+SCRIPT=Path(__file__).resolve().parents[1]/'plugins/icon-design/skills/icon-design/scripts/icon-assets.py'
 spec=importlib.util.spec_from_file_location('assets',SCRIPT)
 assets=importlib.util.module_from_spec(spec);spec.loader.exec_module(assets)
 

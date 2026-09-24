@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "model": "bytedance-seed/seedream-5-0-pro",
+  "requested_resolution": "1K",
+  "aspect_ratio": "1:1",
+  "file": "design/logo-v7/01-folded-flame-seedream.jpg",
+  "format": "jpeg",
+  "cost_usd": 0.045,
+  "reference_sha256": "8d8039092d1675e54dd2c83384ea65b7e89c9cb0d7b0196b4286dab7d18d8b99"
+}

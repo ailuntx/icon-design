@@ -1,9 +1,9 @@
 ---
 name: icon-design
-description: Design original app icons with image generation, compare visual directions at real icon sizes, and prepare transparent layers for Apple Icon Composer. Use for app rebranding, icon redesign and macOS/iOS icon delivery; includes an optional OpenRouter image adapter and legacy ICNS packaging.
+description: Design original app icons with image generation, compare visual directions at real icon sizes, and prepare transparent layers for Apple Icon Composer. Use for app rebranding, icon redesign and macOS/iOS icon delivery; prefer the imagegen skill when available, with an optional authorized OpenRouter adapter and legacy ICNS packaging.
 ---
 
-# AI Icon Studio
+# Icon Design
 
 Respond in the user's language. Inspect the app's purpose, existing icons and build references before designing. A proposed product name is a creative brief, not permission to rename package IDs, storage paths or the whole app. For an empty invocation, ask which app or workflow the icon represents.
 
@@ -21,7 +21,7 @@ Use an available image-generation tool for creative raster work. Do not replace 
 
 ## Image generation and cost
 
-Prefer built-in image generation when available. For an API route, respect existing user authorization and provider choice; do not silently choose a paid service. If the user has already authorized OpenRouter, use [openrouter.md](references/openrouter.md) and the bundled `scripts/openrouter-image.mjs`. Never assume `gpt-image-2.5` exists. Check the selected provider's current model and endpoint if they change or requests fail. An image generation tool, a text-only Codex API adapter and a ChatGPT subscription are separate capabilities.
+Prefer the `imagegen` skill and its built-in image tool when available. Before sending an image request, inspect the actual provider and base URL for the route being used when that information is exposed; a provider label alone does not establish that the endpoint is OpenAI. If the route is third-party, ask for authorization with a native asynchronous free-text input tool when available, and wait for the answer before sending the request. If no built-in image tool is available, use [openrouter.md](references/openrouter.md) and the bundled `scripts/openrouter-image.mjs` when OpenRouter is authorized. Do not silently choose a paid service. Never assume `gpt-image-2.5` exists. Check the selected provider's current model and endpoint if they change or requests fail. An image generation tool, a text-only Codex API adapter and a ChatGPT subscription are separate capabilities.
 
 Start API concept exploration at low quality and 1024 square when supported. Save usage cost returned by the provider. Fewer generations and lower generation quality can reduce cost; resizing or compressing an already-generated image does not refund generation cost. A failed or timed-out request may still have incurred a charge; do not automatically retry. Increase quality for the selected direction when needed, within the user's cost authorization.
 
