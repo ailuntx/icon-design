@@ -23,6 +23,8 @@
     "openai_submission_id": "appsub_6ab5751af5288191a74e967ed4e0374b",
     "openai_submission_url": "https://platform.openai.com/plugins/plugins_6ab4afd6b1188191a10f9cd382d2f196/submissions/appsub_6ab5751af5288191a74e967ed4e0374b",
     "openai_status": "skill_scan_pending",
-    "observed_at_utc": "2026-09-24T19:10:30Z"
+    "observed_at_utc": "2026-09-24T19:10:30Z",
+    "github_release": "https://github.com/ailuntx/icon-design/releases/tag/v0.2.2",
+    "source_commit": "39cdad7"
   }
 }
