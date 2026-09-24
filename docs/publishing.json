@@ -16,5 +16,14 @@
     "version": "0.1.2",
     "status": "unpublished_approved"
   },
-  "observed_at_utc": "2026-09-24T19:58:09Z"
+  "observed_at_utc": "2026-09-24T19:58:09Z",
+  "pending_submission": {
+    "version": "0.2.3",
+    "source_commit": "7c91cfc",
+    "package_sha256": "5b8d0c3f10063eb6980f14b731f33043631fb328343e434679018189fc199f06",
+    "openai_submission_id": "appsub_6ab58ee854708191a392f8b6acc999a7",
+    "openai_submission_url": "https://platform.openai.com/plugins/plugins_6ab4afd6b1188191a10f9cd382d2f196/submissions/appsub_6ab58ee854708191a392f8b6acc999a7",
+    "openai_status": "skill_scan_pending",
+    "observed_at_utc": "2026-09-24T20:59:28Z"
+  }
 }
